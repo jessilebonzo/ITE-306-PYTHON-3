@@ -1,0 +1,31 @@
+def take_two_inputs():
+  """Takes 2 inputs from the user and performs arithmetic operations on them."""
+  first_input = int(input("Enter your first input: "))
+  second_input = int(input("Enter your second input: "))
+  sum = first_input + second_input
+  difference = first_input - second_input
+  product = first_input * second_input
+  modulo = first_input % second_input
+  increment = first_input + second_input
+  decrement = first_input - second_input
+  return sum, difference, product, modulo, increment, decrement
+
+
+if __name__ == "__main__":
+  results = take_two_inputs()
+  print("The sum of the 2 inputs is:", results[0])
+  print("The difference of the 2 inputs is:", results[1])
+  print("The product of the 2 inputs is:", results[2])
+  print("The modulo of the 2 inputs is:", results[3])
+  print("The value of the first input incremented by the second input is:", results[4])
+  print("The value of the first input decremented by the second input is:", results[5])
+
+#Output
+Enter your first input: 1
+Enter your second input: 2
+The sum of the 2 inputs is: 3
+The difference of the 2 inputs is: -1
+The product of the 2 inputs is: 2
+The modulo of the 2 inputs is: 1
+The value of the first input incremented by the second input is: 3
+The value of the first input decremented by the second input is: -1
