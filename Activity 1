@@ -1,0 +1,24 @@
+#a.
+str = input("input string:")
+print(f"String: {str}\nString Length: {len(str)}\n")
+#Output: 
+input string:australia
+String: australia
+String Length: 9
+
+#b.
+num = input("input number:")
+print(f"{num} = {float(num)}")
+#Output:
+323
+323 = 323.0
+
+#c.
+x = 0662
+        y = "Pangasinan"
+        print(x + y)
+#Output:
+ERROR!
+File "<string>", line 2
+    x = 0662
+IndentationError: unexpected indent
